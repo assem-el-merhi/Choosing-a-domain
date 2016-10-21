@@ -1,2 +1,3 @@
 markdown: redcarpet
 baseurl: /Choosing-a-domain
+exclude: ['README.md']
