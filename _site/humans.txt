@@ -1,0 +1,46 @@
+
+
+/* TEAM */
+
+
+Your title: Assem El-Merhi
+
+
+Site: awsomexavier8@gmail.com
+
+
+Twitter: @_Asseme
+
+
+Location: Ottawa, Canada.
+
+
+
+                        [...]
+
+
+
+/* THANKS */
+
+
+Name: Assem El-Merhi
+
+
+
+                        [...]
+
+
+
+/* SITE */
+
+
+Last update: 2016/10/28
+
+
+Standards: HTML5, CSS, Java script
+
+
+Components: Modernizr, jQuery, etc.
+
+
+Software: Adobe Illustrator
