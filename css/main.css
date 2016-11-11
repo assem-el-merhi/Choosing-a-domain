@@ -160,7 +160,7 @@ margin: .5em 0;
     background-position: right;
     background-image: url(../images/snow-pic.jpg);
     width: 100%;
-    height: calc(100vh + 300px);
+    height: calc(40vh + 100px);
     overflow: hidden;
     position: relative;
     right: 0;
