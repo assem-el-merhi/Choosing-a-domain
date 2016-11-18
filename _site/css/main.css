@@ -122,14 +122,6 @@ margin: .5em 0;
 	max-height: 6em;
 }
 
-.page {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 1px;
-    margin: -.5em;
-}
-
 
 .nav-top ul {
 	margin: 0;
@@ -154,13 +146,13 @@ margin: .5em 0;
 }
 
 .billboard {
-    padding: 12%;
+    padding: 10%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     background-image: url(../images/snow-pic.jpg);
     width: 100%;
-    height: calc(40vh + 100px);
+    height: calc(20vh + 100px);
     overflow: hidden;
     position: relative;
     right: 0;
@@ -235,188 +227,16 @@ text-align: center;
     }
 }
 
-
-section{
-		overflow: hidden;
-		padding-top: 50px;
-		padding-bottom: 100px;
-		width: 100%;
-		padding-left:0;
-		padding-right:0;
-}
-
-#icon-wrapper{
-	width:100%;
-	float:left;
-	height:300px;
-}
-
-.icons {
-	width:25%;
-	float:left;
-	position:relative;
-}
-.icons2 {
-	width:25%;
-	float:left;
-	position:relative;
-	margin-left:25%;
-}
-.icons3 {
-	width:25%;
-	float:left;
-	position:relative;
-	margin-left:50%;
-}
-.icons4 {
-	width:25%;
-	float:left;
-	position:relative;
-	margin-left:75%;
-}
-
-.icon-slide-container{
-	height:300px;
-	overflow:hidden;
-	text-align: left;
-	position: absolute;
-	float: left;
-	width: 300px;
-	left: 50%;
-	margin-left: -150px;
-}
-
-.slide-icon{
-  width:300px;
-  height:auto;
-  position:absolute;
-  margin-top:-300px;
-  -webkit-transition:.4s ease;
-  -moz-transition:.4s ease;
-  -ms-transition:.4s ease;
-  -o-transition:.4s ease;
-  transition:.4 ease;
-}
-
-.slide-icon:hover{
-  position:absolute;
-  margin-top:0;
-}
-
-
-
-p {
-    padding: 0.2em 0.2em;
-
-}
-
-.box1 {
-    height: 120px;
-    width: 350px;
-    opacity: 0;
-    transition: all 250ms ease-out;
-    margin: 0.5em;
-    background-color: rgba(266,170,76,0.6);
-    margin-left: auto;
-    margin-right: auto;
-
-
-}
-
-.btn-show-hide1 {
-    color: white;
-    font-size: 1em;
-    background-color: orange;
-    padding: 1em 3%;
-    border-top-right-radius: 5px 5px;
-    border-bottom-right-radius: 5px 5px;
-    border-top-left-radius: 5px 5px;
-    border-bottom-left-radius: 5px 5px;
-    margin-left: 0.5em;
-
-
-}
-
-.box2 {
-    height: 120px;
-    width: 350px;
-    opacity: 0;
-    margin: 0.5em;
-    transition: all 250ms ease-out;
-    background-color: rgba(266,170,76,0.6);
-     margin-left: auto;
-    margin-right: auto;
-}
-
-.btn-show-hide2 {
-    color: white;
-    font-size: 1em;
-    background-color: orange;
-    padding: 1em 3%;
-    border-top-right-radius: 5px 5px;
-    border-bottom-right-radius: 5px 5px;
-    border-top-left-radius: 5px 5px;
-    border-bottom-left-radius: 5px 5px;
-    margin-left: 0.5em;
-
-}
-
-.box3 {
-    height: 150px;
-    top: calc(50% - 60px);
-    width: 350px;
-    background-color: rgba(266,170,76,0.6);
-    opacity: 0;
-    transition: all 250ms ease-out;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.btn-show-hide3 {
-    color: white;
-    font-size: 1em;
-    background-color: orange;
-    padding: 1em 3%;
-    border-top-right-radius: 5px 5px;
-    border-bottom-right-radius: 5px 5px;
-    border-top-left-radius: 5px 5px;
-    border-bottom-left-radius: 5px 5px;
-    margin-left: 0.5em;
-
-}
-
-.box4 {
-    height: 120px;
-    top: calc(50% - 60px);
-    width: 350px;
-    background-color: rgba(266,170,76,0.6);
-    opacity: 0;
-    transition: all 250ms ease-out;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-n-left: 0.5em;
-
-}
-
-.js-box-expand1 {
-    opacity: 100;
-}
-
-.js-box-expand2 {
-    opacity: 100;
-
-}
-
-.js-box-expand3 {
-    opacity: 100;
-
-}
-
 .grid {
     text-align: center
+}
+
+.page {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    margin: -.5em;
 }
 
 
@@ -424,7 +244,7 @@ n-left: 0.5em;
     text-align: center;
     width: 50px;
     margin: 0 auto;
-          -webkit-animation: camera 6s infinite ease-in-out alternate;
+    -webkit-animation: camera 6s infinite ease-in-out alternate;
     animation: camera 6s infinite ease-in-out alternate;
 
 }
@@ -455,72 +275,6 @@ n-left: 0.5em;
 }
 
 
-.info {
-    background-color: black;
-    height: auto;
-}
-
-.des {
-    color:#D0D0D0;
-    list-style-type: none;
-}
-
-.des {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-
-#flash {
-    opacity: 0;
-    transition: all 1s linear;
-}
-
-.js-active #flash {
-    opacity: 1;
-}
-
-#lens {
-    transition: all 1s linear;
-}
-
-.js-active #lens {
-  fill: orange;
-}
-.Camera {
-    text-align: center;
-     height: 400px;
-    width: 30em;
-     margin-left: auto;
-    margin-right: auto;
-}
-
-.nav {
-  padding: 0;
-}
-
-.nav li {
-  display: block;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-  display: block;
-  color: orange;
-  text-decoration: none;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active
-.nav .nav-current,
-.nav .nav-current:link,
-.nav .nav-current:visited {
-  background-color: white;
-  color: orange;
-}
-
 .section-dark {
   background-color: black;
   overflow: hidden;
@@ -550,8 +304,7 @@ n-left: 0.5em;
 }
   }
 
-
-  .copyright {
+.copyright {
     text-align: left;
   }
 
@@ -559,4 +312,64 @@ n-left: 0.5em;
     text-align: right;
   }
 
+}
+
+.icons {
+       width: 80px;
+       height: 80px;
+   }
+}.icons {
+    width: 60px;
+    height: 60px;
+}
+
+.icons:hover {
+    -webkit-animation: pulse 1.5s ease-in-out forwards;
+    animation: pulse 1.5s ease-in-out forwards;
+}
+
+
+
+
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.125, 1.125);
+    }
+    100% {transform: scale(1, 1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.125, 1.125);
+    }
+    100% {transform: scale(1, 1);
+    }
+}
+
+.icons {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+p2 {
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  display: block;
 }
